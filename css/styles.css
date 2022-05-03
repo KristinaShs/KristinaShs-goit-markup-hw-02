@@ -3,6 +3,7 @@
 
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-decoration: none;
 }
 
 /* LOGO */
@@ -86,6 +87,7 @@ color: #212121;
 }
 .list-item{
     list-style-type: none;
+    text-decoration: none;
 }
 .features{
 font-family: 'Roboto';
@@ -129,12 +131,27 @@ color: #212121;
     letter-spacing: 0.03em;
     color: #757575;
 }
+/* FOOTER */
 
-.footer-editing{
-    position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
+.logotype-accent{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.logotype-basic{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: white; 
+}
+footer {
 background: #2F303A;
+text-decoration: none;
 }
