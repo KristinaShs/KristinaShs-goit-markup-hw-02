@@ -153,5 +153,72 @@ color: #2196F3;
 }
 footer {
 background: #2F303A;
-text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+.address-footer{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+footer > a{
+    text-decoration: none;
+}
+li > a{
+    text-decoration: none;
+}
+.button-list{
+    list-style-type: none;
+}
+.btn:hover {
+    background: #2196F3;
+    color: white;
+}
+.btn:focus {
+    color: yellow;
+}
+.btn:active {
+    color: crimson;
+}
+.btn {
+    cursor: pointer;
+}
+.btn{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+background-color: white;
+}
+.image-list{
+list-style-type: none;
+}
+.image-name{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.type{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
 }
