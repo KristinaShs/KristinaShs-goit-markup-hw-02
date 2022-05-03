@@ -61,8 +61,19 @@ text-transform: uppercase;
 }
 .button{
     background-color: #2196F3;
-    color: white;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
 }
+/* FEATURES */
 .sections{
 font-family: 'Roboto';
 font-style: normal;
@@ -72,6 +83,9 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+}
+.list-item{
+    list-style-type: none;
 }
 .features{
 font-family: 'Roboto';
@@ -91,4 +105,36 @@ font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: #757575;
+}
+/* WHAT WE DO */
+
+/* COMMAND */
+.name{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.occupation{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer-editing{
+    position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+background: #2F303A;
 }
