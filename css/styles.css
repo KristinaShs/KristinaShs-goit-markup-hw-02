@@ -11,6 +11,7 @@
 --link-text-color:#2196F3;
 --link-background-color: #F5F4FA;
 --rare-white-text-color: #FFFFFF;
+--contacts-text-color: rgba(255, 255, 255, 0.6);
 }
 body{
     font-family: Roboto, sans-serif;
@@ -243,7 +244,11 @@ font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
 }
-.contact-footer{
+.map{
     color: var(--rare-white-text-color);
+    text-decoration: none;
+}
+.contact-footer{
+    color: var(--contacts-text-color);
     text-decoration: none;
 }
