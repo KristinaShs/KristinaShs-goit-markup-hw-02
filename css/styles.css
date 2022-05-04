@@ -5,11 +5,12 @@
 --secondary-background-color:#2F303A;
 --logo-accent-color: #2196F3;
 --logo-main-color: #F5F4FA;
---button-color: #2196F3;
---button-background-color:#F5F4FA;
+--button-color: #F5F4FA;
+--button-background-color:#2196F3;
 --active-focus-color: #212121;
 --link-text-color:#2196F3;
 --link-background-color: #F5F4FA;
+--rare-white-text-color: #FFFFFF;
 }
 body{
     font-family: Roboto, sans-serif;
@@ -89,7 +90,7 @@ color: var(--link-text-color);
 }
 /* MAIN */
 .header{
-color: var(--main-background-color);
+color: var(--rare-white-text-color);
 background-color: var(--secondary-background-color);
 font-weight: 900;
 font-size: 44px;
@@ -99,8 +100,8 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 }
 .button:hover {
-    background: var(--button-color);
-    color: var(--button-background-color);
+    background: var(--button-background-color);
+    color: var(--button-color);
 }
 .button:focus {
     color: var(--active-focus-color);
@@ -112,7 +113,7 @@ text-transform: uppercase;
     cursor: pointer;
 }
 .button{
-background-color: var(--button-color);
+background-color: var(--button-background-color);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -120,7 +121,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-color: var(--button-background-color);
+color: var(--button-color);
 }
 /* FEATURES */
 .sections{
@@ -174,8 +175,8 @@ color: var(--main-text-color);
     list-style-type: none;
 }
 .btn:hover {
-    background: var(--button-color);
-    color: var(--button-background-color);
+    background: var(--button-background-color);
+    color: var(--button-color);
 }
 .btn:focus {
     color: var(--main-text-color);
@@ -193,7 +194,7 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
-background-color: var(--button-background-color)
+background-color: var(--button-color)
 }
 .image-list{
 list-style-type: none;
@@ -243,6 +244,6 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 }
 .contact-footer{
-    color: var(--main-background-color);
+    color: var(--rare-white-text-color);
     text-decoration: none;
 }
