@@ -23,11 +23,9 @@ text-decoration: none;
 }
 .logo .accent{
 color: #2196F3;
-word-spacing: 0%;
 }
 .logo .basic{
     color: #212121;
-    word-spacing: 0%;
 }
 /* LINKS */
 .navigation:hover {
@@ -210,20 +208,18 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /* FOOTER */
-.logotype-accent{
+.logotype {
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
+text-decoration: none;
+}
+.logotype .start{
 color: #2196F3;
 }
-.logotype-basic{
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+.logotype .end {
     color: white; 
 }
 .footer {
